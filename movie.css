@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+body {
+    margin: 0px;
+    /* background-color: black; */
+}
+hr{
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid black;
+}
+h1{
+    color: black;
+    font-family: "Freehand", cursive;
+    text-align: center;
+    font-size:63px;
+    margin: 0;
+}
+.row {
+    height: 758px;
+    width: 1484px;
+    position: relative;
+    margin-left: 16px ;
+   
+    /* background-color: rgb(190, 188, 188); */
+}
+
+.col {
+
+    width: 325px;
+    height: 680px;
+    border: 1px white solid;
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+   
+}
+.col-1{
+    left: 383px;
+    border: 1px white solid;
+    position: relative;
+}
+.col-2{
+    left: 752px;
+    border: 1px white solid;
+}
+.col-3{
+    left: 1120px;
+    border: 1px white solid;
+}
+.col-4{
+    left: 16px;
+    border: 1px white solid;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+img{
+    margin-left: 18px;
+    margin-top: 18px;
+    height : 344px;
+    width:287px;
+}
+.in{
+    border: 2px black solid;
+    border-radius: 5px;
+    position: absolute;
+    width: 50%;
+    height: 25px;
+    right: 84px;
+    bottom: 19px;
+    text-align: center;
+    padding: 2px;
+}
